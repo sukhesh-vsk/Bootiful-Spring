@@ -1,0 +1,372 @@
+!SESSION 2024-03-26 15:38:52.352 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-26 15:38:58.508
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-26 15:38:59.165
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-26 15:39:37.166
+!MESSAGE Logback config file: /home/vsk/Code/Learn-Spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-03-26 15:39:38.257
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-26 15:39:38.257
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-03-26 15:39:39.446
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-26 15:39:39.446
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:40:58.321
+!MESSAGE Classpath changed for project: workspace
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:08.099
+!MESSAGE Classpath changed for project: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:14.270
+!MESSAGE Classpath changed for project: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:14.271
+!MESSAGE Boot project ADDED: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:14.272
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:14.330
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-26 15:54:14.405
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vsk/Code/Learn-Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711448654403
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:14.405
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-26 15:54:14.418
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 50390
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:54:15.309
+!MESSAGE Classpath changed for project: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 15:59:12.609
+!MESSAGE Classpath changed for project: RoughNote
+!SESSION 2024-03-26 16:07:18.214 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/home/vsk/Code/Learn-Spring/
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-26 16:07:23.494
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-26 16:07:24.157
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-26 16:07:27.492
+!MESSAGE Logback config file: /home/vsk/Code/Learn-Spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-03-26 16:07:28.864
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-26 16:07:28.864
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-03-26 16:07:30.000
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-26 16:07:30.000
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 16:07:38.519
+!MESSAGE Boot project ADDED: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 16:07:38.520
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 16:07:38.666
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-26 16:07:38.743
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vsk/Code/Learn-Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711449458741
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 16:07:38.743
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-26 16:07:38.758
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 55377
+!SESSION 2024-03-26 19:51:14.369 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-26 19:51:20.924
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-26 19:51:21.601
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-26 19:51:24.852
+!MESSAGE Logback config file: /home/vsk/Code/Learn-Spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-03-26 19:51:26.112
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-26 19:51:26.112
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-03-26 19:51:27.225
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-26 19:51:27.225
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-26 19:51:35.563
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vsk/Code/Learn-Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711462895561
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 19:51:35.565
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-26 19:51:35.600
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6362
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 19:51:40.242
+!MESSAGE Boot project ADDED: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 19:51:40.243
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-26 19:51:40.250
+!MESSAGE Started Boot LS process
+!SESSION 2024-03-27 08:51:05.744 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-27 08:51:15.739
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 08:51:16.530
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-03-27 08:51:18.277
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 08:51:19.752
+!MESSAGE Logback config file: /home/vsk/Code/Learn-Spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-03-27 08:51:21.015
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-27 08:51:21.015
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-03-27 08:51:21.943
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-27 08:51:21.943
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-27 08:51:32.430
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vsk/Code/Learn-Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711509692429
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 08:51:32.432
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-27 08:51:32.467
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4508
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 08:51:39.118
+!MESSAGE Boot project ADDED: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 08:51:39.119
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 08:51:39.127
+!MESSAGE Started Boot LS process
+!SESSION 2024-03-27 09:03:35.041 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-27 09:03:40.030
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 09:03:40.784
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 09:03:43.698
+!MESSAGE Logback config file: /home/vsk/Code/Learn-Spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-03-27 09:03:44.896
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-27 09:03:44.896
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-03-27 09:03:45.935
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-27 09:03:45.935
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 09:03:54.898
+!MESSAGE Boot project ADDED: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 09:03:54.900
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 09:03:55.192
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-27 09:03:55.287
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vsk/Code/Learn-Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711510435286
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 09:03:55.292
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-27 09:03:55.298
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10854
+!SESSION 2024-03-27 11:32:21.616 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-27 11:32:41.661
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 11:32:43.957
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 11:32:54.760
+!MESSAGE Logback config file: /home/vsk/Code/Learn-Spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-03-27 11:33:00.762
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-27 11:33:00.767
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-03-27 11:33:06.157
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-27 11:33:06.157
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 11:33:30.773
+!MESSAGE Boot project ADDED: RoughNote
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 11:33:30.776
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 11:33:31.173
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-27 11:33:31.322
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vsk/Code/Learn-Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711519411308
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-27 11:33:31.335
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-27 11:33:31.354
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9773
