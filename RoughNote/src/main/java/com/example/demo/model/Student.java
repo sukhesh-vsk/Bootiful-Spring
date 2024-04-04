@@ -1,22 +1,31 @@
 package com.example.demo.model;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 @Entity
 public class Student {
 
-	@Id @GeneratedValue private long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
 	
 	@Column(unique=true) 
 	private String regno, email;
 	
 	private String sname;
 	double cgpa;
-	@Column(nullable = false, columnDefinition = "BOOLEAN DEFAULT true")
-	private boolean active;
+	
+	@Column(nullable = false, columnDefinition = "INTEGER DEFAULT 1")
+	private int active = 1;
+	
+	@OneToOne(mappedBy="stud", cascade = CascadeType.ALL)
+	private ActiveHistory activeHistory;
 	
     /*
      *  Getters and Setters Start   
@@ -38,6 +47,9 @@ public class Student {
 	public double getCgpa() {
 		return cgpa;
 	}
+	public int getActive() {
+		return active;
+	}
 	
 	public void setId(long id) {
 		this.id = id;
@@ -53,6 +65,9 @@ public class Student {
 	}
 	public void setCgpa(double cgpa) {
 		this.cgpa = cgpa;
+	}
+	public void setActive(int active) {
+		this.active = active;
 	}
 
     /*
