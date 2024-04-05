@@ -19,7 +19,8 @@ public class Student {
 	private String regno, email;
 	
 	private String sname;
-	double cgpa;
+	@Column(nullable = true)
+	private Double cgpa;
 	
 	@Column(nullable = false, columnDefinition = "INTEGER DEFAULT 1")
 	private int active = 1;
@@ -44,7 +45,7 @@ public class Student {
 	public String getEmail() {
 		return email;
 	}
-	public double getCgpa() {
+	public Double getCgpa() {
 		return cgpa;
 	}
 	public int getActive() {
@@ -63,7 +64,7 @@ public class Student {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public void setCgpa(double cgpa) {
+	public void setCgpa(Double cgpa) {
 		this.cgpa = cgpa;
 	}
 	public void setActive(int active) {
