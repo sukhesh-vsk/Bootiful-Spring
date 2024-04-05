@@ -12,3 +12,4 @@ Today i started my learning in developing REST api with Spring Boot framework.
   - At the start of day... finnaly found a bug at Main Class  (-_-) <br>
   - Experimented Different type of requests(GET, POST, PUT, DELETE) and developed APIs to interact with DB <br>
 - **Day 5:** Created new Model for Activity Logs. Connected two tables over Join. Modified add new User API. <br>
+- **Day 6** Optimzed Delete and Update APIs <br>
