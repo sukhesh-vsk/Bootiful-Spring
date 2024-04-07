@@ -13,3 +13,5 @@ Today i started my learning in developing REST api with Spring Boot framework.
   - Experimented Different type of requests(GET, POST, PUT, DELETE) and developed APIs to interact with DB <br>
 - **Day 5:** Created new Model for Activity Logs. Connected two tables over Join. Modified add new User API. <br>
 - **Day 6** Optimzed Delete and Update APIs <br>
+- **Day 7** Optimized viewing user data with Paginations and Sorting.
+- **Day 8** Made Controller to handle only HTTP requests and Moved functionality methods to Service Packages. 
