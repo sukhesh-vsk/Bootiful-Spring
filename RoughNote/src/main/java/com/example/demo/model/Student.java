@@ -19,10 +19,9 @@ public class Student {
 	private String regno, email;
 	
 	private String sname;
-	@Column(nullable = true)
 	private Double cgpa;
 	
-	@Column(nullable = false, columnDefinition = "INTEGER DEFAULT 1")
+	@Column(nullable=false)
 	private int active = 1;
 	
 	@OneToOne(mappedBy="stud", cascade = CascadeType.ALL)

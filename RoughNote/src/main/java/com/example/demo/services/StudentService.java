@@ -34,18 +34,17 @@ public class StudentService {
 
 	public List<Student> getAllStudents(int pageNumber, int pageSize) {
 		PageRequest page = PageRequest.of(pageNumber, pageSize, Sort.by("id"));
-		return studRepo.findAll(page).getContent();
+		return studRepo.findAllStudent(page);
 	}
 
 	public String addStudents(List<Student> datas) {
 		for (Student data : datas) {
-			DateTimeFormatter pattern = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 			studRepo.save(data);
 
 			activeLog.setRegno(data.getRegno());
 			activeLog.setId(data.getId());
 			activeLog.setActive(data.getActive());
-			activeLog.setCreatedTime(LocalDateTime.parse(LocalDateTime.now().format(pattern), pattern));
+			activeLog.setCreatedTime(this.currTime());
 
 			logRepo.save(activeLog);
 		}
@@ -78,7 +77,10 @@ public class StudentService {
 
 	public ResponseEntity<String> deleteStudent(Long stu_id) {
 		Student s = studRepo.findById(stu_id).get();
+		ActiveHistory log = logRepo.findById(stu_id).get();
 		s.setActive(0);
+		log.setActive(0);
+		log.setDeletedTime(this.currTime());
 		studRepo.save(s);
 
 		return new ResponseEntity<>("Deleted Student id " + stu_id, HttpStatus.OK);
@@ -91,5 +93,10 @@ public class StudentService {
 		}
 
 		return (s.get().getActive() == 1);
+	}
+	
+	public LocalDateTime currTime() {
+		DateTimeFormatter pattern = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+		return LocalDateTime.parse(LocalDateTime.now().format(pattern), pattern);
 	}
 }

@@ -9,14 +9,14 @@ import jakarta.persistence.Transient;
 public class Shopping {
 	@Id
 	@GeneratedValue
-	private long id;
+	public long id;
 	
-	private String pname;
-	private double price;
-	private double qty;
+	public String pname;
+	public double price;
+	public double qty;
 	
 	@Transient
-	private double totalPrice;
+	public double totalPrice;
 
     /*
      *	Getters and Setters start 
@@ -57,7 +57,7 @@ public class Shopping {
 	public void setQty(double qty) {
 		this.qty = qty;
 	}
-
+	
 	public void setTotalPrice() {
 		this.totalPrice = this.qty * this.price;
 	}

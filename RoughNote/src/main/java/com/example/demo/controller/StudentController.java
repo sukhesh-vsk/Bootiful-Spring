@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.ResponseEntity.BodyBuilder;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -38,7 +37,7 @@ public class StudentController {
 	@PutMapping("/update/{id}")
 	public ResponseEntity<String> updatemethod(@PathVariable Long id,@RequestBody Student updatedData)
 	{
-		if(!stud.isStudentExist(id)) {
+		if(!stud.isStudentExist(id) && updatedData.getActive() == 1) {
 			return new ResponseEntity<>("User Not Found", HttpStatus.NOT_FOUND);
 		}
 		
@@ -60,7 +59,7 @@ public class StudentController {
 	}
 	
 	@GetMapping("/test")
-	public BodyBuilder test() {
-		return ResponseEntity.status(200);
+	public ResponseEntity<String> test() {
+		return ResponseEntity.status(200).body("Success"	);
 	}
 }

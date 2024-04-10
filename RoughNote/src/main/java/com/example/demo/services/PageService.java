@@ -21,7 +21,7 @@ public class PageService {
 	@Autowired
 	private StudentRepository studRepo;
 	
-	@GetMapping("/view/{page}/{size}")
+	@GetMapping("/view/{pageNum}/{size}")
 	public Page<Student> getHighCGPAStudents(@PathVariable int pageNum,@PathVariable int size) {
 		
 		PageRequest page = PageRequest.of(pageNum, size, Sort.by(Direction.DESC ,"cgpa"));

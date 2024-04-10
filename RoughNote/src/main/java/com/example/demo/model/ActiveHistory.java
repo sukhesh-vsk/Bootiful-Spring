@@ -20,10 +20,10 @@ public class ActiveHistory {
 	@Column(unique=true) 
 	private String regno;
 	
-	@Column(nullable = false, columnDefinition="INTEGER DEFAULT 1")
+	@Column(nullable = false)
 	private int active = 1;
 	
-	@Column(nullable = false, columnDefinition="DATETIME DEFAULT CURRENT_TIMESTAMP")
+	@Column(nullable = true, columnDefinition="DATETIME DEFAULT CURRENT_TIMESTAMP")
 	private LocalDateTime createdTime;
 	
 	private LocalDateTime deletedTime;
