@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
@@ -21,7 +23,7 @@ public class ActiveHistory {
 	private String regno;
 	
 	@Column(nullable = false)
-	private int active = 1;
+	private int active;
 	
 	@Column(nullable = true, columnDefinition="DATETIME DEFAULT CURRENT_TIMESTAMP")
 	private LocalDateTime createdTime;

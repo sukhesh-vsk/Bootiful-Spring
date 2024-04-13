@@ -6,6 +6,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 
 @Entity
@@ -25,7 +26,7 @@ public class Student {
 	private int active = 1;
 	
 	@OneToOne(mappedBy="stud", cascade = CascadeType.ALL)
-	private ActiveHistory activeHistory;
+	private ActiveHistory logs;
 	
     /*
      *  Getters and Setters Start   

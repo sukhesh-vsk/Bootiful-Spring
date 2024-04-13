@@ -40,12 +40,11 @@ public class StudentService {
 	public String addStudents(List<Student> datas) {
 		for (Student data : datas) {
 			studRepo.save(data);
-
-			activeLog.setRegno(data.getRegno());
 			activeLog.setId(data.getId());
+			activeLog.setRegno(data.getRegno());
 			activeLog.setActive(data.getActive());
 			activeLog.setCreatedTime(this.currTime());
-
+			
 			logRepo.save(activeLog);
 		}
 
