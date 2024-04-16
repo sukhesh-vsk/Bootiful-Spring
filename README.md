@@ -18,3 +18,4 @@ Today i started my learning in developing REST api with Spring Boot framework.
 - **Day 9:** Created Transient column.
 - **Day 10:** Optimized Get request with custom Queries.
 - **Day 11:** Created OnetoOne relationship among two Entities.
+- **Day 12:** Learnt to create ManyToOne, OneToMany relationship mappings.
